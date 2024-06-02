@@ -12,3 +12,4 @@ elif y == "*":
     print(f"{(x * z):.1f}")
 elif y == "/":
     print(f"{(x / z):.1f}")
+# remember how to use format string
