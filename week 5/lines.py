@@ -15,9 +15,9 @@ try:
                 continue
             else:
                 number_of_lines += 1
-
 except FileNotFoundError:
     if sys.argv[1].endswith(".py"):
         sys.exit("File does not exit")
     else:
         sys.exit("Not a python file")
+print(number_of_lines)
