@@ -3,8 +3,8 @@ from fuel import gauge
 import pytest
 
 def test_convert():
-    assert test_convert("1/2") == 50
-    assert test_convert("1/3") == 33
+    assert convert("1/2") == 50
+    assert convert("1/3") == 33
     with pytest.raises(ValueError):
         convert("cat/dog")
     with pytest.raises(ZeroDivisionError):
