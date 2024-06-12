@@ -1,15 +1,15 @@
 def main():
-    gauge(convert(input("Fraction: ")))
+    print(gauge(convert(input("Fraction: "))))
 
 def convert(fraction):
     while True:
         try:
-            i, j = map(int, faction.split("/"))
-            return round(i / j * 100)
+            i, j = map(int, fraction.split("/"))
             if j == 0:
                 raise ZeroDivisionError
             elif i > j:
                 raise ValueError
+            return round(i / j * 100)
         except (ZeroDivisionError, ValueError):
             pass
 
