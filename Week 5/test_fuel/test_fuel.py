@@ -12,6 +12,7 @@ def test_convert():
     with pytest.raises(ValueError):
         convert("9/2")
 
+
 def test_gauge():
     assert gauge(99) == "F"
     assert gauge(100) == "F"
