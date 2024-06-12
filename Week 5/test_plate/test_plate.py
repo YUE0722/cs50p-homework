@@ -13,4 +13,4 @@ def test_number_in_middle():
     assert is_valid("AA333A") == False
 
 def test_two_letter():
-    assert("A3333") == False
+    assert is_valid("A3333") == False
