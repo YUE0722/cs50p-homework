@@ -1,7 +1,7 @@
 def main():
     print(gauge(convert(input("Fraction: "))))
 
-def convert(fraction):
+def convert(fracion):
     while True:
         try:
             i, j = map(int, fraction.split("/"))
