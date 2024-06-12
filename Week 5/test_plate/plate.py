@@ -24,5 +24,6 @@ def is_valid(s):
             return False
     # Return True if all conditions followed
     return True
-
-main()
+    
+if __name__ =="__main__":
+    main()
