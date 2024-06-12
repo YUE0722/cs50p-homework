@@ -5,7 +5,7 @@ def main():
 def shorten(word):
     output = []
     for letter in word:
-        if letter in ["a", "e", "i", "o", "u"]:
+        if letter in ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]:
             continue
         else:
             output.append(letter)
