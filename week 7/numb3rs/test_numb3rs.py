@@ -1,4 +1,4 @@
-from numb3rs import validate
+from nu import validate
 
 def test_validate():
     assert validate("127.0.0.1") == True
